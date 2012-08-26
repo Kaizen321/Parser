@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser", "Parser\Parser.csproj", "{3ABF0B5A-8FD6-4577-876E-8C029AE958F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser.Tests", "Parser.Tests\Parser.Tests.csproj", "{D384C3CC-CF9C-4CC5-9FE4-9D762E452793}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{538AB6C3-FC06-443D-A917-3E9A45404BB7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ABF0B5A-8FD6-4577-876E-8C029AE958F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABF0B5A-8FD6-4577-876E-8C029AE958F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABF0B5A-8FD6-4577-876E-8C029AE958F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABF0B5A-8FD6-4577-876E-8C029AE958F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D384C3CC-CF9C-4CC5-9FE4-9D762E452793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D384C3CC-CF9C-4CC5-9FE4-9D762E452793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D384C3CC-CF9C-4CC5-9FE4-9D762E452793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D384C3CC-CF9C-4CC5-9FE4-9D762E452793}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
